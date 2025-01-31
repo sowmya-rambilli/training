@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2" cellpadding="10px" cellspacing="0px">
+        <thead>
+            <tr>
+                <th>S1.no</th>
+                <th>name</th>
+                <th>company</th>
+                <th>salary</th>
+                <th>city</th>
+                <th>area</th>
+            </tr>
+        </thead>
+        <tbody id="store">
+        
+        </tbody>
+    </table>
+    <script>
+        const employees = [
+    {
+        empId: 1,
+        empName:"sowmya",
+        empCompany:"Tech M",
+        empSalary: 75000,
+        empAddress:{
+            empCity:"Hyd",
+            empArea:"Madhapur"
+        }
+    },
+    {
+        empId: 2,
+        empName:"shannu",
+        empCompany:"Google",
+        empSalary: 85000,
+        empAddress:{
+            empCity:"khammam",
+            empArea:"kothagudam"
+        } 
+    },
+    {
+        empId: 3,
+        empName:"Preethi",
+        empCompany:"Aws",
+        empSalary: 70000,
+        empAddress:{
+            empCity:"Warngal",
+            empArea:"Hanumakonda"
+        }
+    },
+    {
+        empId: 4,
+        empName:"Bhanu",
+        empCompany:"Tcs",
+        empSalary: 95000,
+        empAddress:{
+            empCity:"Hyd",
+            empArea:"Hitech"
+        }
+    }
+];
+
+employees.map(user=>{
+    let store = document.getElementById("store");
+    store.innerHTML +=`
+    <tr>
+        
+
+})
+    
+     </script>
+
+</body>
+</html>
