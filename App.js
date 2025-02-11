@@ -67,12 +67,24 @@
 // export default App
 
 
-import React from 'react'
-import Child1 from './propexample/Child1'
-const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+// import React from 'react'
+// import Child1 from './propexample/Child1'
+// const App = () => {
+//   return (
+//     <div>App</div>
+//   )
+// }
 
-export default App
+// export default App
+import React from 'react'
+import RefExample from './propexample/RefExample'
+ const App = () => {
+   return (
+     <div>
+      <RefExample></RefExample>
+
+     </div>
+   )
+ }
+ 
+ export default App
